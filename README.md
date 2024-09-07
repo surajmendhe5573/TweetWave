@@ -1,2 +1,3 @@
 # Fullstack Tweet APP 
-- Tweet app allows users to create, view, edit, and delete tweets. Each tweet is associated with a user, and users can interact with their own tweets and those of others. The project uses Django's built-in features for handling user authentication and forms.
+- This Django application is a simple Twitter-like platform that allows users to create, view, edit, and delete tweets. It includes user authentication and registration features, making sure that only registered users can interact with the tweet management functionalities. The app also supports file uploads (such as images) alongside tweet creation.
+
