@@ -14,7 +14,7 @@ def tweet_list(request):
     return render(request, 'tweet_list.html', {'tweets': tweets})
 
 
-def create_tweet(request):
+def tweet_create(request):
     if request.method == "POST":
       form= TweetForm(request.POST, request.FILES)
       if form.is_valid():
